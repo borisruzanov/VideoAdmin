@@ -1,0 +1,152 @@
+{
+  "project_info": {
+    "project_number": "589177605842",
+    "firebase_url": "https://russianwives.firebaseio.com",
+    "project_id": "russianwives",
+    "storage_bucket": "russianwives.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589177605842:android:9dcee4e449e4fe0c",
+        "android_client_info": {
+          "package_name": "com.borisruzanov.russianwives"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589177605842-vgo5gk83t72q6qgj922ga592usch8f49.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.borisruzanov.russianwives",
+            "certificate_hash": "4c0c5832b8e3240f0f28e7b2933f46bc59e444a4"
+          }
+        },
+        {
+          "client_id": "589177605842-3hq7ljpsa1hosn7i5q2s2egdm185ir48.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.borisruzanov.russianwives",
+            "certificate_hash": "682fe1313249c91e4920ce779d42efb698a407bf"
+          }
+        },
+        {
+          "client_id": "589177605842-bf17q8c8cktg7hopua2af2f28u5qh5es.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2px3vF9S3euH5VPMJYr4D_UmpbY7zZSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589177605842-bf17q8c8cktg7hopua2af2f28u5qh5es.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-5095813023957397~1146672660"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589177605842:android:e8fbac6bf5b3562104270b",
+        "android_client_info": {
+          "package_name": "com.ruswives.rwadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589177605842-t45b3q2slh8dudkpq3nolrighdh055h4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ruswives.rwadmin",
+            "certificate_hash": "4c0c5832b8e3240f0f28e7b2933f46bc59e444a4"
+          }
+        },
+        {
+          "client_id": "589177605842-bf17q8c8cktg7hopua2af2f28u5qh5es.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2px3vF9S3euH5VPMJYr4D_UmpbY7zZSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589177605842-bf17q8c8cktg7hopua2af2f28u5qh5es.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589177605842:android:2fcad7a3f8dc448d04270b",
+        "android_client_info": {
+          "package_name": "es.mattiagarreffa.videoadmindemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589177605842-bf17q8c8cktg7hopua2af2f28u5qh5es.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2px3vF9S3euH5VPMJYr4D_UmpbY7zZSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589177605842-bf17q8c8cktg7hopua2af2f28u5qh5es.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589177605842:android:f59879d3c5d0690504270b",
+        "android_client_info": {
+          "package_name": "es.mattiagarreffa.videoclientdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589177605842-bf17q8c8cktg7hopua2af2f28u5qh5es.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2px3vF9S3euH5VPMJYr4D_UmpbY7zZSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589177605842-bf17q8c8cktg7hopua2af2f28u5qh5es.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
