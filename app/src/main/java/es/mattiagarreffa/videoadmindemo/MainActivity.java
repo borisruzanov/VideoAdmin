@@ -15,10 +15,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.firestore.CollectionReference;
+import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.storage.FirebaseStorage;
 
 import java.util.ArrayList;
@@ -32,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
     Button uploadButton, declineButton;
 
     List<String> videoIDList = new ArrayList<>();
+    private CollectionReference users = FirebaseFirestore.getInstance().collection("Users");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -184,6 +188,21 @@ public class MainActivity extends AppCompatActivity {
 
                 @Override
                 public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                }
+            });
+
+            FirebaseDatabase.getInstance().getReference().child("videos").child(videoIDList.get(0)).child("videoURL").child("userID").addListenerForSingleValueEvent(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                    String userId = String.valueOf(dataSnapshot.getValue());
+                    String usesrId = String.valueOf(dataSnapshot.getValue());
+                }
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError databaseError) {
+                    String e = String.valueOf(databaseError.getMessage());
+                    String es = String.valueOf(databaseError.getMessage());
 
                 }
             });
